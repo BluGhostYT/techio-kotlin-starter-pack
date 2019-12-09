@@ -6,7 +6,7 @@ Kotlin provides two way to declare variable.
 
 - Immutable (read-only) variable:
 
-Using the keyword `val`means that your variable could be assign just once.
+Using the keyword `val`means that your variable could be assigned just once.
 
 >immediate assignment
 
@@ -29,7 +29,7 @@ c = 3
 
 - Mutable (read/write) variable:
 
-Using the keyword `var` allow you to declare mutable variables.
+Using the keyword `var` allows you to declare mutable variables.
 
 ``` kotlin runnable
 // { autofold
@@ -45,7 +45,7 @@ x += 1 // x now is equals to 6
 
 ### String templates
 
-String are made easier with Kotlin, more convinient to use, and more readable.
+Strings are made easier with Kotlin, more convinient to use, and are readable.
 
 > Simple templates
 
@@ -62,7 +62,7 @@ val str = "Hello, $name !" // prints "Hello, Kotlin !"
 // }
 ```
 
-Here is a more interesting part. You may be able to invoke piece of code inside a template, avoiding lots of 
+Here is a more interesting part: You are able to invoke pieces of code inside a template, avoiding lots of 
 boilerplate code.
 
 >String manipulation
@@ -127,8 +127,8 @@ fun main(args: Array<String>) {
 //}
 ```
 
-In Kotlin, `if` can be an expression, that means that you can assign a variable or return the `if` directly. 
-Previous snippet can be write as follow.
+In Kotlin, `if` can be an expression, meaning that you can assign a variable or return the `if` directly. 
+Previous snippets can be written as followed:
 
 ``` kotlin runnable
 fun max(a: Int, b: Int): Int {
